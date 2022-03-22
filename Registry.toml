@@ -1,0 +1,6 @@
+name = "TetrapodsRegistry"
+uuid = "3ad6eb35-e9b2-4fd0-9e4b-714a2a233928"
+repo = "git@github.com:UCD4IDS/TetrapodsRegistry.git"
+description = "registry for the TETRAPODS Institute of Data Science at UC Davis"
+
+[packages]
