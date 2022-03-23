@@ -4,3 +4,4 @@ repo = "git@github.com:UCD4IDS/TetrapodsRegistry.git"
 description = "registry for the TETRAPODS Institute of Data Science at UC Davis"
 
 [packages]
+3d7dfd45-6c90-4c9b-b697-194a05757159 = { name = "FourierFilterFlux", path = "F/FourierFilterFlux" }
