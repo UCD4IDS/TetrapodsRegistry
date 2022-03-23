@@ -1,0 +1,3 @@
+name = "TestPrivate"
+uuid = "98074b08-0653-44f2-b80d-d0e4e1942d2e"
+repo = "git@github.com:UCD4IDS/TestPrivate.jl.git"
