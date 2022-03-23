@@ -5,4 +5,5 @@ description = "registry for the TETRAPODS Institute of Data Science at UC Davis"
 
 [packages]
 3d7dfd45-6c90-4c9b-b697-194a05757159 = { name = "FourierFilterFlux", path = "F/FourierFilterFlux" }
+bd728e11-17d4-5679-9a00-f24958f87a1c = { name = "Shearlab", path = "S/Shearlab" }
 eadaac29-8b6b-5395-80fd-9ce36bb46293 = { name = "ScatteringTransform", path = "S/ScatteringTransform" }
