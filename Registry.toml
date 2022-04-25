@@ -9,3 +9,4 @@ description = "registry for the TETRAPODS Institute of Data Science at UC Davis"
 bd728e11-17d4-5679-9a00-f24958f87a1c = { name = "Shearlab", path = "S/Shearlab" }
 d9cc96d6-3a18-48ba-a621-865d77ea2931 = { name = "HodgeEigs", path = "H/HodgeEigs" }
 eadaac29-8b6b-5395-80fd-9ce36bb46293 = { name = "ScatteringTransform", path = "S/ScatteringTransform" }
+f51caf9e-47b1-4165-a6d0-be29c4c287ce = { name = "KymatioWrapper", path = "K/KymatioWrapper" }
