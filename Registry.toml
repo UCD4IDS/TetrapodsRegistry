@@ -5,6 +5,7 @@ description = "registry for the TETRAPODS Institute of Data Science at UC Davis"
 
 [packages]
 08a3b3d4-a326-42ad-8bf2-aae8cae0b9e1 = { name = "MonogenicFilterFlux", path = "M/MonogenicFilterFlux" }
+196eb918-4f6f-4958-a9e4-adbde22f279d = { name = "ScatteringPlots", path = "S/ScatteringPlots" }
 3d7dfd45-6c90-4c9b-b697-194a05757159 = { name = "FourierFilterFlux", path = "F/FourierFilterFlux" }
 98074b08-0653-44f2-b80d-d0e4e1942d2e = { name = "TestPrivate", path = "T/TestPrivate" }
 bd728e11-17d4-5679-9a00-f24958f87a1c = { name = "Shearlab", path = "S/Shearlab" }
