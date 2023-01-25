@@ -1,0 +1,3 @@
+name = "PersistentCohomology"
+uuid = "1871bf54-ef79-537f-b0b4-1ef9038f9ab8"
+repo = "https://github.com/piever/PersistentCohomology.jl.git"
