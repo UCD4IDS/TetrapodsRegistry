@@ -4,7 +4,7 @@ repo = "git@github.com:UCD4IDS/TetrapodsRegistry.git"
 description = "registry for the TETRAPODS Institute of Data Science at UC Davis"
 
 [packages]
-08a3b3d4-a326-42ad-8bf2-aae8cae0b9e1 = { name = "MonogenicFilterFlux", path = "M/MonogenicFilterFlux" }
+27e6407a-9159-4acb-a68a-dfae66d408cf = { name = "MonogenicFilterFlux", path = "M/MonogenicFilterFlux" }
 1871bf54-ef79-537f-b0b4-1ef9038f9ab8 = { name = "PersistentCohomology", path = "P/PersistentCohomology" }
 196eb918-4f6f-4958-a9e4-adbde22f279d = { name = "ScatteringPlots", path = "S/ScatteringPlots" }
 3d7dfd45-6c90-4c9b-b697-194a05757159 = { name = "FourierFilterFlux", path = "F/FourierFilterFlux" }
