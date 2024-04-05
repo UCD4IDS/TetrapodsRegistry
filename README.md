@@ -19,3 +19,15 @@ register(MyFavPkg, registry="~/.julia/registries/Tetrapods/", repo="<url of MyFa
 ```
 
 if it is private, see [this tutorial](https://github.com/GunnarFarneback/LocalRegistry.jl/blob/master/docs/ssh_keys.md). Primarily, the repo must be the ssh version.
+
+To just upload a new version of `MyFavPkg` to the registry, first
+
+- push all of the new work you want to be included in that version up to the repo url for `MyFavPkg`
+- make sure you've included a version bump, so that the new version is greater than the existing one
+
+And run
+
+```
+using LocalRegistry, MyFavPkg
+register(MyFavPkg)
+```
