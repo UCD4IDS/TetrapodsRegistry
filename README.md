@@ -17,9 +17,11 @@ pkg"registry add git@github.com:UCD4IDS/TetrapodsRegistry.git"
 
 To add a new package `MyFavPkg` to the registry,
 
-- first make sure you have installed `LocalRegistry`; `pkg"add LocalRegistry"`
-- next you'll need `MyFavPkg` as a git repo using `dev`; `pkg"dev git@github.com:path/to/MyFavPkg.git"`
-- finally, we can run:
+- first make sure you have installed `LocalRegistry`: `pkg"add LocalRegistry"`
+- next you'll need `MyFavPkg` as a git repo using `dev`: `pkg"dev git@github.com:path/to/MyFavPkg.git"`
+- make sure your registries are up to date: `pkg"registry up"`
+
+Then we can run:
  
 ```
 using LocalRegistry, MyFavPkg
@@ -30,12 +32,13 @@ if it is private, see [this tutorial](https://github.com/GunnarFarneback/LocalRe
 
 ### Update an existing package
 
-To just upload a new version of `MyFavPkg` to the registry, first
+To just upload a new version of `MyFavPkg` to the registry,
 
 - push all of the new work you want to be included in that version up to the repo url for `MyFavPkg`
 - make sure you've included a version bump, so that the new version is greater than the existing one
+- make sure your registries are up to date: `pkg"registry up"`
 
-And run:
+Then we can run:
 
 ```
 using LocalRegistry, MyFavPkg
