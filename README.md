@@ -4,20 +4,22 @@ Julia package registry, public and private, for UCD4IDS
 
 ## Using the registry
 
-First, to install the registry, run:
+### Install the registry
+
+If this is your first time using the registry, you need to add it to Julia:
 
 ```
 using Pkg
 pkg"registry add git@github.com:UCD4IDS/TetrapodsRegistry.git"
 ```
 
-To add a new package `MyFavPkg` to the registry, first make sure you have installed `LocalRegistry` using `dev`:
+### Add a package for the first time
 
-```
-pkg"dev git@github.com:path/to/MyFavPkg.git"
-```
+To add a new package `MyFavPkg` to the registry,
 
-Now the package exists as a git repo, so we can run:
+- first make sure you have installed `LocalRegistry`; `pkg"add LocalRegistry"`
+- next you'll need `MyFavPkg` as a git repo using `dev`; `pkg"dev git@github.com:path/to/MyFavPkg.git"`
+- finally, we can run:
  
 ```
 using LocalRegistry, MyFavPkg
@@ -25,6 +27,8 @@ register(MyFavPkg, registry="~/.julia/registries/Tetrapods/", repo="git@github.c
 ```
 
 if it is private, see [this tutorial](https://github.com/GunnarFarneback/LocalRegistry.jl/blob/master/docs/ssh_keys.md). Primarily, the repo must be the ssh version.
+
+### Update an existing package
 
 To just upload a new version of `MyFavPkg` to the registry, first
 
