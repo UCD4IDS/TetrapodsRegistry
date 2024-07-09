@@ -36,6 +36,7 @@ To just upload a new version of `MyFavPkg` to the registry,
 
 - push all of the new work you want to be included in that version up to the repo url for `MyFavPkg`
 - make sure you've included a version bump, so that the new version is greater than the existing one
+- make sure you have the git repo for `MyFavPkg`, e.g.: `pkg"dev git@github.com:path/to/MyFavPkg.git"` 
 - make sure your registries are up to date: `pkg"registry up"`
 
 Then we can run:
@@ -44,3 +45,5 @@ Then we can run:
 using LocalRegistry, MyFavPkg
 register(MyFavPkg)
 ```
+
+If you want to follow the registry's version of `MyFavPkg` from now on instead of your local git repo version, you may now `free` it: `pkg"free MyFavPkg"`
