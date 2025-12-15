@@ -46,3 +46,7 @@ MLJBase = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
 MonogenicFilterFlux = "27e6407a-9159-4acb-a68a-dfae66d408cf"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
+
+["0.7-0"]
+DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+WaveletsExt = "8f464e1e-25db-479f-b0a5-b7680379e03f"
