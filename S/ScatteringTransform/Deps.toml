@@ -39,7 +39,6 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 GLMNet = "8d5ece8b-de18-5317-b113-243142960cc6"
 Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
-LocalRegistry = "89398ba2-070a-4b16-a995-9893c55d93cf"
 MLDataUtils = "cc2ba9b6-d476-5e6d-8eaf-a92d5412d41d"
 MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
 MLJBase = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
@@ -47,6 +46,11 @@ MonogenicFilterFlux = "27e6407a-9159-4acb-a68a-dfae66d408cf"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
+["0.6-0.7.1"]
+LocalRegistry = "89398ba2-070a-4b16-a995-9893c55d93cf"
+
 ["0.7-0"]
-DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
 WaveletsExt = "8f464e1e-25db-479f-b0a5-b7680379e03f"
+
+["0.7-0.7.1"]
+DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
