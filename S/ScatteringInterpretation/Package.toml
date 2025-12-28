@@ -1,3 +1,4 @@
 name = "ScatteringInterpretation"
 uuid = "2e72716b-aab1-426f-8785-52471c319e22"
-repo = "git@github.com:dsweber2/ScatteringInterpretation.git"
+repo = "https://github.com/BoundaryValueProblems/ScatteringInterpretationPaper.git"
+
