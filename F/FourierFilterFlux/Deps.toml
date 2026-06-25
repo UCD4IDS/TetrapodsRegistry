@@ -16,3 +16,8 @@ cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
 ["0.3.8-0"]
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+
+["0.4-0"]
+CUDA_Runtime_Discovery = "1af6417a-86b4-443c-805f-a4643ffb695f"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+cuFFT = "533571aa-0936-420e-b4be-9c66f5f626ca"
