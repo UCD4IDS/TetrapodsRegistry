@@ -56,3 +56,8 @@ WaveletsExt = "8f464e1e-25db-479f-b0a5-b7680379e03f"
 
 ["0.7-0.7.1"]
 DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+
+["0.9-0"]
+FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+cuFFT = "533571aa-0936-420e-b4be-9c66f5f626ca"
